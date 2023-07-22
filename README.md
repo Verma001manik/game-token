@@ -38,8 +38,7 @@ Points token deployed to <YOUR TOKEN ADDRESS>
 * Under deploy and transactions select environment as : injected Provider (Metamask )
 * Under ataddress paste your <YOUR TOKEN ADDRESS> and click deploy
 * Play around !!
-file
-![image](https://github.com/Verma001manik/game-token/assets/97086386/6a261d9c-9b97-4c98-b3ce-baee3eef299a)
+
 
 
 ## License
