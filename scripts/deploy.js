@@ -2,14 +2,14 @@ const hre = require("hardhat");
 
 async function main() {
   // Get the Points smart contract
-  const Degen = await hre.ethers.getContractFactory("DegenToken");
+  const Points = await hre.ethers.getContractFactory("DegenToken");
 
   // Deploy it
-  const degen = await Degen.deploy();
-  await degen.deployed();
+  const points = await Points.deploy();
+  await points.deployed();
 
   // Display the contract address
-  console.log(`Degen token deployed to ${degen.address}`);
+  console.log(`Points token deployed to ${points.address}`);
 }
 
 // Hardhat recommends this pattern to be able to use async/await everywhere
